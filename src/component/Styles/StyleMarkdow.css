@@ -1,0 +1,8 @@
+#div-img{
+    height: 120vh;
+    background-image: url("./../../images/fondo.jpg");
+}
+#container{
+    display: flex;
+    justify-content: center;
+}

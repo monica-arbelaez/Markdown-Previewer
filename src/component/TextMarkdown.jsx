@@ -4,9 +4,9 @@ export default class TextMarkdown extends Component {
     render() {
         return (
             <div>
-           <textarea className="form-control writing" 
+           <textarea  id ="editor" className="form-control writing" 
            defaultValue={this.props.defaultContent}
-           onChange={this.props.change}  rows="30"/>
+           onChange={this.props.change}  rows="15"/>
             </div>
         )
     }
